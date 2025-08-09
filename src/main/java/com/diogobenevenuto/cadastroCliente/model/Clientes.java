@@ -11,6 +11,7 @@ public class Clientes {
 	private String name;
 	private String email;
 	private String number;
+	private String city;
 	private String cityId;
 	
 	
@@ -43,6 +44,12 @@ public class Clientes {
 	}
 	public void setCityId(String cityId) {
 		this.cityId = cityId;
+	}
+	public String getCity() {
+		return city;
+	}
+	public void setCity(String city) {
+		this.city = city;
 	}
 
 }
